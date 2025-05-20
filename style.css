@@ -471,3 +471,59 @@ footer{
    color:  hsl(206, 92%, 53%);
 }
 
+@media screen and (min-width:768px){
+    .top-container{
+        width: 100vw;
+    }
+
+    .navbar{
+        width: 10%;
+    }
+
+    .cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .industry{
+        margin-top: -5em;
+    }
+
+    .industry p{
+        width: 65vh;
+        word-wrap: break-word;
+        margin-left: 12em;
+    }
+
+    .profile-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8em;
+    }
+
+    .profile{
+        width: 30vh;
+    }
+
+    .profile img{
+        width: 10vh;
+        height: 15vh;
+        margin-left: 2em;
+    }
+
+    .icons img{
+       height: 2em;
+       width: 2em;
+    }
+}
